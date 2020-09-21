@@ -1,10 +1,11 @@
 body
 {
+/*	border: 2px solid yellow; */
 	background-color: black;
 	/*background-image: url('Images/BG_Texture.jpg');*/
 	background-repeat: repeat;
-	back
 	
+	padding-bottom: 40px;
 }
 
 h1
@@ -25,20 +26,8 @@ p
 a
 {
 	text-decoration: none;
-}
-
-.titleLinks
-{
-	text-decoration: none;
-	border: 2px solid red;
-	border-radius: 0 15px 0 5px;
-  
-	display: block;
-	padding: 10px 20px;
-	background-color: #dddddd;
-	top: 10px;
-	
-	
+	color: #000000;
+	font-size: 15px;
 }
 
 ul
@@ -46,29 +35,43 @@ ul
 	list-style-type: none;
 	margin: 0;
 	padding: 5% 10% 5% 10%;
-	width: 80%;
+	width: 45%;
 	
+	margin: 0 auto;
 }
 
-li 
+.titleLinks
 {
 	float: left;
 	display: block;
-
-/*	border: 2px solid red; */
+	
+	text-decoration: none;
+	border: 2px solid #730800;
+	border-radius: 0 15px 0 5px;
+  
+	padding: 10px 20px;
+	background-color: red;
+	top: 10px;
+	
+	
 }
 li a:hover
 {
-	background-color: #111;
+	background-color: #730800;
 }
+
+
 
 
 
 .divLogo
 {
-	margin: 0 auto;
+/*	border: 2px solid blue;*/
+	margin: -10px auto;
 	top: 0;
 	bottom: 20px;
+/*	padding-top: 20px;
+	padding-bottom: 20px;*/
 	
 	animation-name: LogoFadeIn;
 	animation-duration: 3s;
@@ -91,24 +94,25 @@ li a:hover
 
 .divPages
 {
-/*	border: 2px solid red; */
+/*	border: 2px solid white; 
 /*	border-radius: 0 15px 0 5px; */
 	
 	left: 50%;
-	top: 5px;
-	transform: translate(-50%, -50%);
-	margin: 35px auto;
-	width: 100%;
+	top: 0;
+	transform: translate(-50%, -10%);
+	margin: 0 auto;
+	height: 150px;
+	padding-bottom: 20px;
 }
 
 .divSocialLinks
 {
-/*	border: 2px solid red;*/
+/*	border: 2px solid red;
 /*	border-radius: 0 15px 0 5px; */
 	
 	left: 50%;
-	bottom: 5%;
-	transform: translate(-50%, -5%);
+	bottom: 10%;
+	transform: translate(-50%, 50%);
 	margin: 0 auto;
 	
 	
@@ -116,14 +120,22 @@ li a:hover
 
 .divFooter
 {
+/*	border: 2px solid green; */
 	position: relative;
 
-	top: 20px;
+	top: 100px;
+	left: -10px;
 	bottom: 0;
 	width: 100%;
 	
+	margin-top: -50px;
 }
 
+@font-face
+{
+    font-family: 'MonkehsFont';
+    src: url('Fonts/EVILDEAD.TTF');
+}
 
 .titleLogo_img
 {
@@ -141,4 +153,5 @@ li a:hover
 	position: relative;
 	text-align: center;
 	color: blue;
+	font-family: 'MonkehsFont';
 }
