@@ -21,7 +21,6 @@ p
 {
 	color: red;
 	margin-left: 20px;
-	
 }
 
 a
@@ -34,25 +33,17 @@ a
 ul
 {
 	list-style-type: none;
-	margin: 0;
-	padding: 5% 10% 5% 10%;
-	width: 45%;
-	
 	margin: 0 auto;
+	padding: 20px 0 20px 0;
+	width: 95%;
+	min-height:50px;
+	
+/*	border: 2px solid green; */
+	
+	justify-content: center;
+	display: flex;
 }
 
-.titleLinks
-{
-	float: left;
-	display: block;
-	
-	text-decoration: none;
-	border: 2px solid #730800;
-	border-radius: 0 15px 0 5px;
-  
-	padding: 5px 10px;
-	background-color: red;	
-}
 
 li a:hover
 {
@@ -87,6 +78,7 @@ li a:hover
 	margin: -10px auto;
 	top: 0;
 	bottom: 20px;
+	
 /*	padding-top: 20px;
 	padding-bottom: 20px;*/
 	
@@ -108,18 +100,35 @@ li a:hover
 }
 
 
+.titleLinks
+{
+	float: left;
+	display: inline-block;
+	
+	text-decoration: none;
+	border: 2px solid #730800;
+	border-radius: 0 15px 0 5px;
+  
+	padding: 5px 10px;
+	background-color: red;
+	
+	height: 20px;
+
+}
 
 .divPages
 {
 /*	border: 2px solid white; 
 /*	border-radius: 0 15px 0 5px; */
 	
-	left: 5%;
-	top: 0;
+/*	left: 5%; */
 /*	transform: translate(0, -10%);*/
-	margin: 0 auto;
-	height: 150px;
+/*	margin: 0 auto;*/
+	height: 75px;
+	width: 100%;
 	padding-bottom: 20px;
+
+	
 }
 
 .divSocialLinks
