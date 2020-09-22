@@ -2,9 +2,11 @@
 
 
 .steamLogo_img
-{	
+{
 	width: 100px;
 	height: 100px;
 	position: 0;
 	padding-top: 20px;
+	padding-bottom: -20px;
+	
 }
