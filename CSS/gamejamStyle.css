@@ -65,6 +65,14 @@ a.tileDL:hover
 	position: absolute;
 
 }
+.tilePrice
+{
+	font-size: 10px;
+	text-align:left;
+	top: 92%;
+	position: absolute;
+
+}
 .tileGenre
 {
 	font-size: 10px;
@@ -74,6 +82,25 @@ a.tileDL:hover
 
 }
 
+.pageHeader
+{
+	width: 450px;
+	margin: auto;
+	color: red;
+	padding-bottom: 40px;
+	
+/*	border: 2px solid red;*/
+}
+.pageHeader2
+{
+	width: 450px;
+	margin: auto;
+	color: red;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	
+/*	border: 2px solid red;*/
+}
 
 .gjContainer
 {
