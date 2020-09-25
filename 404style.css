@@ -45,64 +45,35 @@ ul
 }
 
 
-li a:hover
+a:hover
 {
 	background-color: #730800;
 }
 
-
-.Video
+.tile
 {
-	width:100%;
-	max-width: 560px;
+	width: 90%;
+	padding: 20px 20px 20px 0;
+	
+	border: 1px double red;
+	display: inline-block;
+
+	background-color: #140200;
+	
 }
 
-.divVideo
+.divPages
 {
-	margin: -10px auto;
-	top: 0;
-	bottom: 20px;
+	height: 75px;
+	width: 100%;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	
-	animation-name: LogoFadeIn;
-	animation-duration: 3s;
-	
-	width: 100%;
-}
-
-
-.divLogo
-{
-/*	border: 2px solid blue;*/
-	margin: -10px auto;
-	top: 0;
-	bottom: 20px;
-	
-/*	padding-top: 20px;
-	padding-bottom: 20px;*/
-	
-	animation-name: LogoFadeIn;
-	animation-duration: 3s;
-	
-	
-	/*border: 2px solid red;*/
-}
-@keyframes LogoFadeIn
-{
-  from {opacity: 0%;}
-  to {opacity: 100%;}
-}
-@keyframes LogoFadeOut 
-{
-  from {opacity: 100%;}
-  to {opacity: 0%;}
 }
 
 
 .titleLinks
 {
-	float: left;
+	float: center;
 	display: inline-block;
 	
 	text-decoration: none;
@@ -133,12 +104,6 @@ li a:hover
 
 .divPages
 {
-/*	border: 2px solid white; 
-/*	border-radius: 0 15px 0 5px; */
-	
-/*	left: 5%; */
-/*	transform: translate(0, -10%);*/
-/*	margin: 0 auto;*/
 	height: 75px;
 	width: 100%;
 	padding-bottom: 20px;
@@ -146,18 +111,6 @@ li a:hover
 	
 }
 
-.divSocialLinks
-{
-/*	border: 2px solid red;
-/*	border-radius: 0 15px 0 5px; */
-	
-	left: 50%;
-	bottom: 10%;
-	transform: translate(-50%, 50%);
-	margin: 0 auto;
-	
-	
-}
 
 .divFooter
 {
@@ -176,23 +129,6 @@ li a:hover
 	opacity: 50%;
 }
 
-@font-face
-{
-    font-family: 'MonkehsFont';
-    src: url('../Fonts/EVILDEAD.TTF');
-}
-
-.titleLogo_img
-{
-	width: 400px;
-	height: 400px;
-	position: 60px;
-}
-.sm_img
-{
-	width: 50px;
-	height: 50px;
-}
 .home_img
 {
 	width: 20px;
@@ -203,5 +139,4 @@ li a:hover
 	position: relative;
 	text-align: center;
 	color: blue;
-	font-family: 'MonkehsFont';
 }
