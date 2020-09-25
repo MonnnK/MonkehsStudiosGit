@@ -1,0 +1,207 @@
+body
+{
+/*	border: 2px solid yellow; */
+	background-color: black;
+	/*background-image: url('Images/BG_Texture.jpg');*/
+	background-repeat: repeat;
+	
+	padding-bottom: 40px;
+	overflow-x: hidden;
+}
+
+h1
+{
+	width: 450px;
+	margin: auto;
+	color: red;	
+/*	border: 2px solid red;*/
+}
+
+p
+{
+	color: red;
+	margin-left: 20px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #000000;
+	font-size: 15px;
+}
+
+ul
+{
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+	width: 95%;
+	min-height:50px;
+	
+/*	border: 2px solid green; */
+	
+	justify-content: center;
+	display: flex;
+}
+
+
+li a:hover
+{
+	background-color: #730800;
+}
+
+
+.Video
+{
+	width:100%;
+	max-width: 560px;
+}
+
+.divVideo
+{
+	margin: -10px auto;
+	top: 0;
+	bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+	animation-name: LogoFadeIn;
+	animation-duration: 3s;
+	
+	width: 100%;
+}
+
+
+.divLogo
+{
+/*	border: 2px solid blue;*/
+	margin: -10px auto;
+	top: 0;
+	bottom: 20px;
+	
+/*	padding-top: 20px;
+	padding-bottom: 20px;*/
+	
+	animation-name: LogoFadeIn;
+	animation-duration: 3s;
+	
+	
+	/*border: 2px solid red;*/
+}
+@keyframes LogoFadeIn
+{
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+}
+@keyframes LogoFadeOut 
+{
+  from {opacity: 100%;}
+  to {opacity: 0%;}
+}
+
+
+.titleLinks
+{
+	float: left;
+	display: inline-block;
+	
+	text-decoration: none;
+	border: 2px solid #730800;
+	border-radius: 0 15px 0 5px;
+  
+	padding: 5px 10px;
+	background-color: red;
+	
+	height: 20px;
+
+}
+.titleLinks_Active
+{
+	float: left;
+	display: inline-block;
+	
+	text-decoration: none;
+	border: 2px solid #b04300;
+	border-radius: 0 15px 0 5px;
+  
+	padding: 5px 10px;
+	background-color: red;
+	
+	height: 20px;
+	top: -3px;
+}
+
+.divPages
+{
+/*	border: 2px solid white; 
+/*	border-radius: 0 15px 0 5px; */
+	
+/*	left: 5%; */
+/*	transform: translate(0, -10%);*/
+/*	margin: 0 auto;*/
+	height: 75px;
+	width: 100%;
+	padding-bottom: 20px;
+
+	
+}
+
+.divSocialLinks
+{
+/*	border: 2px solid red;
+/*	border-radius: 0 15px 0 5px; */
+	
+	left: 50%;
+	bottom: 10%;
+	transform: translate(-50%, 50%);
+	margin: 0 auto;
+	
+	
+}
+
+.divFooter
+{
+/*	border: 2px solid green; */
+	position: relative;
+
+	top: 100px;
+	left: -10px;
+	bottom: 5px;
+	width: 100%;
+	
+	margin-top: -50px;
+	margin-bottom: 25px;
+	
+	font-size: 10px;
+	opacity: 50%;
+}
+
+@font-face
+{
+    font-family: 'MonkehsFont';
+    src: url('../Fonts/EVILDEAD.TTF');
+}
+
+.titleLogo_img
+{
+	width: 400px;
+	height: 400px;
+	position: 60px;
+}
+.sm_img
+{
+	width: 50px;
+	height: 50px;
+}
+.home_img
+{
+	width: 20px;
+	height: 20px;
+}
+
+* {
+	position: relative;
+	text-align: center;
+	color: blue;
+	font-family: 'MonkehsFont';
+}
