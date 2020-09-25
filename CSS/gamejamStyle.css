@@ -98,14 +98,14 @@
 }
 .tile_SendEmail
 {
-	width: 20%;
-	min-width: 60px;
+	width: 15%;
+	min-width: 30px;
 	max-width: 200px;
 	
 	position: absolute;
 	top: 35%;
-	left: 38%;
-
+	left: 40%;
+	
 	padding-left: 10px;
 	padding-right: 20px;
 	color:#FFFFFF;
@@ -113,7 +113,9 @@
 	background-color: #730800;
 	
 	border: 2px dashed red;
-	border-radius: 15px 0 15px 5px;
+	border-radius: 5px 25px 5px 25px;
+	
+	text-align: center;
 }
 
 a.tileDL:hover
@@ -122,6 +124,10 @@ a.tileDL:hover
 }
 	
 a.tileNews_More:hover
+{	
+	color: red;	
+}
+a.tile_SendEmail:hover
 {	
 	color: red;	
 }
