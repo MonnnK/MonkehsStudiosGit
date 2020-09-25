@@ -7,7 +7,7 @@
 	height: 450px;
 	padding: 20px 20px 20px 0;
 	
-	border: 1px double red;
+	border: 3px double red;
 	display: inline-block;
 
 	background-color: #140200;
@@ -45,7 +45,7 @@
 	width: 90%;
 	padding: 20px 20px 20px 0;
 	
-	border: 1px double red;
+	border: 3px double red;
 	display: inline-block;
 
 	background-color: #140200;
