@@ -9,6 +9,12 @@ body
 	overflow-x: hidden;
 }
 
+
+label, select, option, u, i, textarea
+{
+	color: red;
+}
+
 h1
 {
 	width: 450px;
