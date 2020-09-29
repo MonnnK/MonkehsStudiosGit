@@ -23,7 +23,7 @@ h1
 /*	border: 2px solid red;*/
 }
 
-p
+p, small
 {
 	color: red;
 	margin-left: 20px;
